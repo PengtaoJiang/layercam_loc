@@ -5,8 +5,8 @@ opencv==3.4.0
 (For opencv, if you use a different version, cv2.findContours() function may by different.)
 
 ## Installation
-Download the [vgg models](链接: https://pan.baidu.com/s/1e8EPSGWA08gl5KE0v-1MEw  密码: 78wp).   
-Put them into models/vgg/ folder.
+1. Download the [vgg models](链接: https://pan.baidu.com/s/1e8EPSGWA08gl5KE0v-1MEw  密码: 78wp) and put them into models/vgg/ folder.  
+2. Download the ImageNet validation data.
 
 ## Run Localization
 ```
