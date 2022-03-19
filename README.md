@@ -6,7 +6,7 @@ opencv==3.4.0
 
 ## Installation
 1. Download the [vgg models](链接: https://pan.baidu.com/s/1e8EPSGWA08gl5KE0v-1MEw  密码: 78wp) and put them into models/vgg/ folder.  
-2. Download the ImageNet validation data.
+2. Download the ImageNet validation data and change the img_path in test_vgg_imagenet.sh file.
 
 ## Run Localization
 ```
