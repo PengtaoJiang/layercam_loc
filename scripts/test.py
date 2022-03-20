@@ -111,8 +111,8 @@ def layercam(args, model=None):
         os.makedirs(args.save_dir)
 
     for idx, dat in tqdm(enumerate(val_loader)):
-        if idx > 100:
-            break
+        #if idx > 100:
+        #    break
         img_name, img, label_in = dat
         img = img.cuda()
         img = img.squeeze(0)
